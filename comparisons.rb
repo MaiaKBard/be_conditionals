@@ -131,4 +131,4 @@ puts loves_to_play && age
 # ANSWER: 1
 # because both are true, it will return the second true value (cause it didn't find a false)
 # if it would have hit a false value, it would have returned the first false value it found.
-#  
+#  -- This answer was found after trying different methods and a google search also got my mentor invovled it boggled both our brains at first.
