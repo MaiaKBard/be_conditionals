@@ -13,7 +13,7 @@
 weather = "sunny"
 
 if weather == "sunny"
-  p "sunscreen"
+  p "stay inside to hot out!"
 elsif weather == "rainy"
   p "umbrella"
 elsif weather == "snowy"
@@ -41,10 +41,13 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
+num_quarters = 8
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2 
+  puts "I have enough money for a gumball"
+else 
+  puts "I don't have enough money for a gumball"
+end 
 
 
 #####################
@@ -61,5 +64,12 @@ puts "I don't have enough money for a gumball"
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
+cups_of_flour = 9
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce 
+  puts "I can make pizza"
+
+elsif cups_of_flour < 2 || has_sauce == false
+  puts "I cannot make pizza"
+end
